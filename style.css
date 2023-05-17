@@ -31,13 +31,18 @@
   --button-disabled: #968f8c;
   --primary: #01894d;
 }
+body {
+    background: #1e1f22!important;
+}
 .login__box,
 .login__saml-separator>spa {
     background-color: #fffff04f;
 }
+.theme-light .sliding-panel__header,
+.sliding-panel__header,
 .sidebar,
 .nav-bar {
-    background: #232428;
+    background: #232428!important;
 }
 .page__content-wrapper {
     background: #1e1f22;
@@ -45,6 +50,11 @@
 .argo-table-list__row {
     background: #2b2d31!important;
     color: #dee6eb!important;
+}
+.sliding-panel__header {
+    border-bottom: 1px solid #1e1f22;
+    -webkit-box-shadow: #1e1f22;
+    box-shadow: #1e1f22;
 }
 .top-bar {
     background: #2b2d31!important;
