@@ -79,6 +79,9 @@ body {
 .application-resource-tree__node {
     box-shadow: 1px 1px 1px #1e1f22!important;
 }
+.user-info {
+    margin-top: 20px;
+}
 .resource-details__header h1,
 .white-box__details-row,
 .tabs__nav.transparent a.active,
