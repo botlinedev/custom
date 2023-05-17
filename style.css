@@ -82,6 +82,19 @@ body {
 .user-info {
     margin-top: 20px;
 }
+.popup-overlay {
+    background-color: rgb(2 2 2 / 62%)!important;
+    border: 1px solid #1c1c1c!important;
+}
+.popup-overlay .popup-container {
+    box-shadow: 3px 3px 20px #272727!important;
+}
+.popup-overlay .popup-container__header__normal,
+.popup-overlay .popup-container__footer,
+.popup-overlay .popup-container__body {
+    background-color: #252525!important;
+}
+.argo-form-row,
 .resource-details__header h1,
 .white-box__details-row,
 .tabs__nav.transparent a.active,
